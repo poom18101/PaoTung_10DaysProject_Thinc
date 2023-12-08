@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 192, 75, 1) 0%,
+    rgba(243, 144, 200, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img {
+  height: 250px;
+  width: 200px;
+}
+#RegisterHeader {
+  border-radius: 30px;
+  width: 276px;
+  height: 55px;
+  background-color: #faf3f3;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+#Register {
+  border-radius: 30px;
+  width: 276px;
+  height: 55px;
+  background-color: #ffb5b5;
+  font-size: 24px;
+  font-weight: bold;
+}
+.Input {
+  margin: 30px;
+  height: 38px;
+  width: 260px;
+  border-radius: 30px;
+}
+#Register {
+  margin: 30px;
+}
+.Text {
+  font-size: 24px;
+  font-weight: bold;
+}

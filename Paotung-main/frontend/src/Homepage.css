@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(238, 192, 75, 1) 0%,
+    rgba(243, 144, 200, 1) 100%
+  );
+}
+
+#HomepageHeader {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+#circle1 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin: 1em;
+  border-color: #e25789;
+  border-style: solid;
+  border-width: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#Bulb1 {
+  position: absolute;
+  height: 193px;
+  display: flex;
+}
+#BulbText {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+#BulbAmount {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Box1 {
+  width: 40vw;
+  height: 98px;
+  background-color: #faf3f3;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px 2px rgb(108, 104, 104);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#DetailRestAndDish {
+  font-weight: bold;
+  text-align: center;
+  color: #e25789;
+}
+#Time {
+  font-size: 55px;
+  font-weight: bold;
+  color: #e25789;
+}
+
+#Box2 {
+  width: 374px;
+  height: 140px;
+  background-color: #faf3f3;
+  border-radius: 15px;
+  box-shadow: 2px 4px 10px 2px rgb(108, 104, 104);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.FoodHistory {
+  width: 102px;
+  height: 104px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  clear: both;
+  text-align: center;
+  padding: 0;
+  margin-top: 80px;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#ClickBelow {
+  width: 100vw;
+  height: 85px;
+  background-color: #faf3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Portal {
+  width: 105px;
+  height: 105px;
+  background-color: #faf3f3;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+.PortalName {
+  font-weight: bold;
+}
